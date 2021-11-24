@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
         //calculator for digits [0-9]
-//        String clientInputForInterpreterPattern = "1-2-5-7+1+1+3";
-//        runInterpreterPatternDemo(clientInputForInterpreterPattern);
+        String clientInputForInterpreterPattern = "1-2-5-7+1+1+3";
+        runInterpreterPatternDemo(clientInputForInterpreterPattern);
 
        DateProcessFormat format = prepareChainObject();
        runChainOFRespPatternDemo(format);
